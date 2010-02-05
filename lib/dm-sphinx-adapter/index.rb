@@ -4,7 +4,7 @@ module DataMapper
 
       # Sphinx index definition.
       class Index
-        include Assertions
+        include Extlib::Assertions
 
         # Options.
         attr_reader :model, :name, :options
