@@ -9,7 +9,7 @@ begin
     gem.email       = "shane.hanna@gmail.com"
     gem.homepage    = "http://github.com/shanna/dm-sphinx-adapter"
     gem.authors     = ["Shane Hanna"]
-    gem.add_dependency 'dm-core', ['~> 0.9']
+    gem.add_dependency 'dm-core', ['~> 0.10']
     gem.files.reject!{|f| f=~ %r{test/files/tmp/.*}}
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
